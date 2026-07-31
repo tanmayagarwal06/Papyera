@@ -42,10 +42,10 @@ export function Sidebar() {
       <div className="px-5 pt-5 pb-4">
         <Link href="/" className="flex items-center gap-2.5 group">
           <div className="w-8 h-8 rounded-[7px] bg-gradient-veda flex items-center justify-center shadow-sm shrink-0">
-            <span className="text-white font-bold text-[15px] tracking-tight">P</span>
+            <span className="text-white font-bold text-[15px] tracking-tight">V</span>
           </div>
           <span className="text-white font-semibold text-[15px] tracking-[-0.01em]">
-            Papyera
+            VedaAI
           </span>
         </Link>
       </div>

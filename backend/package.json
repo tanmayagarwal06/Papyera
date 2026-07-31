@@ -1,7 +1,7 @@
 {
-  "name": "papyera-backend",
+  "name": "vedaai-backend",
   "version": "1.0.0",
-  "description": "Papyera Assessment Creator Backend",
+  "description": "VedaAI Assessment Creator Backend",
   "main": "dist/server.js",
   "scripts": {
     "build": "tsc",

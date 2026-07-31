@@ -126,7 +126,7 @@ export default function SettingsPage() {
           </div>
 
           <div className="bg-white rounded-[16px] border border-veda-gray-200 p-6">
-            <SectionHeader icon={Sparkles} title="AI Preferences" description="Control how Papyera generates your exam papers" />
+            <SectionHeader icon={Sparkles} title="AI Preferences" description="Control how VedaAI generates your exam papers" />
 
             <div className="space-y-0">
 
@@ -179,7 +179,7 @@ export default function SettingsPage() {
           </div>
 
           <div className="bg-white rounded-[16px] border border-veda-gray-200 p-6">
-            <SectionHeader icon={Bell} title="Notifications" description="Control what Papyera notifies you about" />
+            <SectionHeader icon={Bell} title="Notifications" description="Control what VedaAI notifies you about" />
 
             <div className="space-y-0">
               <SettingRow label="Email Notifications" description="Receive important updates by email">
@@ -217,7 +217,7 @@ export default function SettingsPage() {
           </div>
 
           <div className="bg-white rounded-[16px] border border-veda-gray-200 p-6">
-            <SectionHeader icon={Palette} title="Appearance" description="Customise how Papyera looks" />
+            <SectionHeader icon={Palette} title="Appearance" description="Customise how VedaAI looks" />
             <div className="flex items-center gap-3 py-2">
               {[
                 { label: 'Light', class: 'bg-white border-2 border-veda-gray-300' },
