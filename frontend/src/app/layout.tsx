@@ -2,10 +2,10 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'VedaAI — AI Assessment Creator',
-  description: 'Create, generate, and manage AI-powered exam papers with VedaAI.',
+  title: 'Papyera — AI Assessment Creator',
+  description: 'Create, generate, and manage AI-powered exam papers with Papyera.',
   icons: {
-    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23D4521A'/><text y='23' x='6' font-size='20' font-weight='bold' fill='white' font-family='system-ui'>V</text></svg>",
+    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23D4521A'/><text y='23' x='6' font-size='20' font-weight='bold' fill='white' font-family='system-ui'>P</text></svg>",
   },
 };
 

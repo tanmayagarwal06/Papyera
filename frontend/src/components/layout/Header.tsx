@@ -19,7 +19,7 @@ function getBreadcrumb(pathname: string): Crumb {
   if (pathname === '/settings') return { label: 'Settings' };
   if (pathname === '/create') return { label: 'Assignments', back: '/assignments' };
   if (pathname.startsWith('/paper/')) return { label: 'Assignments', back: '/assignments' };
-  return { label: 'VedaAI' };
+  return { label: 'Papyera' };
 }
 
 export function Header() {

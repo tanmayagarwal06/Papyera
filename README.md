@@ -1,4 +1,4 @@
-# VedaAI
+# Papyera
 
 An AI-powered exam paper generator for teachers. Fill in a form — subject, question types, marks — and the AI writes the full paper. You get real-time progress while it generates, then download it as a PDF.
 
@@ -96,7 +96,7 @@ Open [http://localhost:3000](http://localhost:3000).
 **backend/.env**
 
 ```
-MONGODB_URI=mongodb://localhost:27017/vedaai
+MONGODB_URI=mongodb://localhost:27017/papyera
 REDIS_URL=redis://localhost:6379
 
 # Set one of these. If both are left as placeholders, mock mode kicks in.
@@ -130,7 +130,7 @@ The app is split across three services:
 
 **Render env vars:**
 ```
-MONGODB_URI=mongodb+srv://<user>:<password>@<cluster>.mongodb.net/vedaai?...
+MONGODB_URI=mongodb+srv://<user>:<password>@<cluster>.mongodb.net/papyera?...
 REDIS_URL=rediss://default:<password>@<host>.upstash.io:6379
 GEMINI_API_KEY=your_key_here
 NODE_ENV=production
@@ -151,7 +151,7 @@ NEXT_PUBLIC_WS_URL=wss://your-render-backend.onrender.com
 ## Project layout
 
 ```
-vedaai/
+papyera/
 ├── backend/
 │   └── src/
 │       ├── controllers/     ← REST route handlers
